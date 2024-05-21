@@ -9,9 +9,9 @@ const projectDir = "C:\\Users\\letbyte\\Desktop\\xybercupid";
 ```
 to your own project directory, use `\\` instead of `\` to prevent error.
 
-> Go to your GitHub repository.
-> Navigate to "Settings" > "Webhooks" > "Add webhook".
-> Set the "Payload URL" to your server's address (e.g., http://your-server-ip:4000/webhook).
-> Set "Content type" to application/json.
-> Select "Just the push event".
-> Click "Add webhook".
+> Go to your GitHub repository. <br>
+> Navigate to "Settings" > "Webhooks" > "Add webhook". <br>
+> Set the "Payload URL" to your server's address (e.g., http://your-server-ip:4000/webhook). <br>
+> Set "Content type" to application/json. <br>
+> Select "Just the push event". <br>
+> Click "Add webhook". <br>
