@@ -5,9 +5,6 @@
 ```js
 npm i
 ```
-```js
-node .
-```
 
 inside `webhook-handler.js`
 edit:
@@ -22,3 +19,7 @@ to your own project directory, use `\\` instead of `\` to prevent error.
 > Set "Content type" to application/json. <br>
 > Select "Just the push event". <br>
 > Click "Add webhook". <br>
+
+```js
+node .
+```
