@@ -2,6 +2,13 @@
 - This project is meant to run on a remote server where you can listen to git pull updates and update your local directory with latest changes
 - using `nodemon` you can also allow this script to auto pull changes and restart the server
 
+```js
+npm i
+```
+```js
+node .
+```
+
 inside `webhook-handler.js`
 edit:
 ```js
