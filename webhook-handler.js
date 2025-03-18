@@ -25,6 +25,9 @@ const server = http.createServer((req, res) => {
         res.writeHead(200, { 'Content-Type': 'text/plain' });
         res.end('OK\n');
     } 
+    else if (req.method === 'GET' && req.url === '/'){
+        res.end('Hello')
+    }
     else {
         res.writeHead(404, { 'Content-Type': 'text/plain' });
         res.end('Not Found\n');
